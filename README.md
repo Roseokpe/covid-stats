@@ -1,48 +1,98 @@
-# curriculum-databases-projects-template
+# COVID-STATS-webApp
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+> This is a web application that'll display the total number of COVID-19 cases in different countried round the world. The users can click on any country for more details.
+
+## Mockup
+
+This design was inspired by Nelson Sakwa, in association with the Creative Commons license.
+
+![Home page](./screenshot/Screenshot1-2022-09-02-85546.png)
+![Detail page](./screenshot/Screenshot2-2022-09-02-185721.png)
+
+## Video Presentation
+
+[watch video](https://www.loom.com/share/e27205a3b79e4866baf41b80c8a3697f)
+
+## Built With
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+- React JS
+
+- Redux
+
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+To get a local copy up and running follow these simple example steps.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- copy this link https://github.com/Roseokpe/covid-stats.git
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write git clone https://github.com/Roseokpe/covid-stats.git
+- go to the repository folder in your command prompt cd Metrics-webApp
+- use npm install to install the dependencies.
+- use npm start to start live server.
 
+## Prerequisites
 
-## Authors
+- Have a working and updated browser
+- Have a local version control like git install on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS and React JS
 
-👤 **Author1**
+### Setup
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Clone the git repo using this command: git clone https://github.com/Roseokpe/covid-stats.git
 
-👤 **Author2**
+### Run tests
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- npx hint . : To test html codes
+- npx stylelint "/\*.{css,scss}"\*\* : To test css code
+- npx eslint . : To test Eslint Report
 
-## 🤝 Contributing
+### To test the application
+
+- npm install --save-dev jest
+- npm test
+
+## Live Demo
+
+- [Live link](covid-stats-webapp.netlify.app)
+
+## Author
+
+-[GitHub](https://github.com/roseokpe) -[Twitter](https://twitter.com/roseokpe) -[LinkedIn](https://linkedin.com/in/roseokpe)
+
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a star if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse linters
+- Coding partners
+- Nelson Sakwa
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
