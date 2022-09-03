@@ -13,7 +13,7 @@ const rootReducers = combineReducers({
 
 const store = configureStore(
   {
-    reducer: rootReducers
+    reducer: rootReducers,
   },
   applyMiddleware(thunk, logger),
 );
