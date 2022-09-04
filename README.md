@@ -1,9 +1,11 @@
 # COVID-STATS-webApp
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > This is a web application that'll display the total number of COVID-19 cases in different countried round the world. The users can click on any country for more details.
 
 ## Mockup
+
 This design was inspired by Nelson Sakwa, in association with the Creative Commons license.
 
 ![Home page](./screenshot/Screenshot1-2022-09-02-85546.png)
@@ -59,7 +61,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 - npx hint . : To test html codes
-- npx stylelint "/*.{css,scss}"** : To test css code
+- npx stylelint "/\*.{css,scss}"\*\* : To test css code
 - npx eslint . : To test Eslint Report
 
 ### To test the application
@@ -69,13 +71,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-- [Live link](covid-metric-webapp.netlify.app)
+- [Live link](covid-stats-webapp.netlify.app)
 
 ## Author
 
--[GitHub](https://github.com/roseokpe)
--[Twitter](https://twitter.com/roseokpe)
--[LinkedIn](https://linkedin.com/in/roseokpe )
+-[GitHub](https://github.com/roseokpe) -[Twitter](https://twitter.com/roseokpe) -[LinkedIn](https://linkedin.com/in/roseokpe)
 
 ## Contributing
 
@@ -91,7 +91,7 @@ Give a star if you like this project!
 
 - Microverse linters
 - Coding partners
-- Nelson Sakwa 
+- Nelson Sakwa
 
 ## 📝 License
 
