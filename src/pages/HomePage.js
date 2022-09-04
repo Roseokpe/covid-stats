@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { generate } from "randomized-string";
-import { FaSearchLocation } from "react-icons/fa";
-import fetchData from "../redux/covid/Api";
-import { fetchStats } from "../redux/covid/reducer";
+/* eslint-disable */
+import React, { useEffect, useState } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { generate } from 'randomized-string';
+import { FaSearchLocation } from 'react-icons/fa';
+import fetchData from '../redux/covid/Api';
+import { fetchStats } from '../redux/covid/reducer';
 
 const HomePage = () => {
   const countryStore = useSelector((store) => store.details);
@@ -16,18 +17,16 @@ const HomePage = () => {
     }
   }, [countryStore.length, dispatch]);
 
-  let continCovid = countryStore.filter((item) => item.continent === "Europe");
+  let continCovid = countryStore.filter((item) => item.continent === 'Europe');
   const location = useLocation();
   const query = new URLSearchParams(location.search);
-  const search = query.get("search") || "";
-  continCovid = continCovid.filter((country) =>
-    country.country.toLowerCase().includes(search.toLowerCase())
-  );
+  const search = query.get('search') || '';
+  continCovid = continCovid.filter((country) => country.country.toLowerCase().includes(search.toLowerCase()));
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState(search);
 
   const countryFilterOnChange = (event) => {
-    navigate(event.target.value ? `?search=${event.target.value}` : "");
+    navigate(event.target.value ? `?search=${event.target.value}` : '');
     setSearchValue(event.target.value);
   };
 
@@ -59,7 +58,8 @@ const HomePage = () => {
                 <h1 className="name">{country.country}</h1>
               </div>
               <div>
-                <h2 className="pupalution">Population:</h2>{" "}
+                <h2 className="pupalution">Population:</h2>
+                {' '}
                 <p className="number">{country.population.toLocaleString()}</p>
               </div>
               <div className="photo">
