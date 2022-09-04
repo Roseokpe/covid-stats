@@ -1,3 +1,4 @@
+/* eslint-disable */
 import store from '../redux/configureStore';
 
 it('should render the store', () => {
