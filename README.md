@@ -1,4 +1,4 @@
-# Metrics-webApp
+# COVID-STATS-webApp
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > This is a web application that'll display the total number of COVID-19 cases in different countried round the world. The users can click on any country for more details.
@@ -69,7 +69,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-- [Live link](https://62c0520991bd054aae5730d6--covid19-globally.netlify.app/)
+- [Live link]()
 
 ## Author
 
